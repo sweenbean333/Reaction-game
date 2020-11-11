@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <title>Reaction Time Game</title>
+</head>
+<body>
+    <div class="intro-container">
+        <h1>Test Your Reaction Time</h1>
+        <p id="description">Squares and circles will appear randomly on the screen one by one (10 total). Click on them as fast as you can. Your average time will be displayed to you at the end.</p>
+        <button id="begin-button">Begin</button>
+    </div>
+    <div class="game-container">
+        <div class="text-container">
+            <h3 >Previous Time: <p id="previous-click-time"></p></h3>
+            <h3 >Click Time: <p id="click-time"></p></h3>
+        </div>
+        <div id="shape"></div>
+    </div>
+    <div id="game-end-container">
+        <h1><p id="average-time">Average Time</p></h1>
+        <button class="play-again">Play Again?</button>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
